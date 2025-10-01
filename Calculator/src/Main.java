@@ -7,16 +7,6 @@ public class Main {
         calc_add.setNumbers(5,3);
         calc_add.add();
         calc_add.displayResult("+");
-
-        Calculator cale_mul = new Calculator();
-        cale_mul.setNumbers(5,3);
-        cale_mul.multiply();
-        cale_mul.displayResult("*");
-
-        Calculator calc_div = new Calculator();
-        calc_div.setNumbers(10,2);
-        calc_div.divide();
-        calc_div.displayResult("/");
-
+        
     }
 }
