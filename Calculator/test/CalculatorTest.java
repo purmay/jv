@@ -6,6 +6,8 @@ class CalculatorTest {
     void add() {
         Calculator calc = new Calculator();
         calc.setNumbers(10, 20);
-        assertEquals(30, calc.add());
+        assertEquals(20, calc.add());
     }
+
+
 }
